@@ -1,10 +1,11 @@
 public class Doctor {
-    int id;
+    static int id = 0; // Autoincrement
     String name;
     String speciality;
 
     Doctor() {
         System.out.println("Building Doctor object");
+        id++;
     }
 
     Doctor(String name) {
@@ -13,5 +14,9 @@ public class Doctor {
 
     public void showName() {
         System.out.println(name);
+    }
+
+    public void showId() {
+        System.out.println("Doctor ID: " + id);
     }
 }
