@@ -8,8 +8,11 @@ public class Doctor {
         id++;
     }
 
-    Doctor(String name) {
+    Doctor(String name, String speciality) {
         System.out.println("Doctor's assigned name is " + name);
+        id++;
+        this.name = name;
+        this.speciality = speciality;
     }
 
     public void showName() {
