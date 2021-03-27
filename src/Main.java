@@ -16,16 +16,15 @@ public class Main {
             System.out.println(aa.getDate() + " " + aa.getTime()); // Se imprimen las citas
         }
 
-/*
         Patient patient = new Patient("Alejandra", "alejandra@gmail.com");
-        patient.setWeight(54.6);
-        System.out.println(patient.getWeight()); // 54.6 Kg.
-
-        patient.setPhoneNumber("123456789"); // El número telefónico debe ser máximo de 8 dígitos
-        System.out.println(patient.getPhoneNumber()); // null
-
-        patient.setPhoneNumber("12345678");
-        System.out.println(patient.getPhoneNumber()); // 12345678
-*/
+        System.out.println(patient);
+        // User: Alejandra
+        // Email: alejandra@gmail.com
+        // Address: null
+        // Phone: null
+        // Age: null
+        // Weight: 0.0 Kg.
+        // Height: 0.0 Mts.
+        // Blood: null
     }
 }
