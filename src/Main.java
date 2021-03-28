@@ -1,4 +1,5 @@
 import model.Doctor;
+import model.ISchedulable;
 import model.Patient;
 import model.User;
 
@@ -9,9 +10,30 @@ public class Main {
         // showMenu();
 
         User user = new Doctor("Cristian Iñiguez", "felizpc1@gmail.com");
-        user.showDataUser();
+        // user.showDataUser();
         // Empleado del Hospital: Cruz Verde
         // Departamento: Oncología
+
+        User user1 = new User("Cristian Iñiguez", "felizpc1@gmail.com") {
+            @Override
+            public void showDataUser() {
+                System.out.println("Doctor");
+                System.out.println("Hospital: Cruz Verde");
+                System.out.println("Departemento: Geriatría");
+            }
+        };
+        user1.showDataUser();
+        // Doctor
+        // Hospital: Cruz Verde
+        // Departemento: Geriatría
+
+        ISchedulable iSchedulable1 = new ISchedulable() {
+            @Override
+            public void schedule(Date date, String time) {
+                // ...
+            }
+        };
+
 
         // for (model.Doctor.AvailableAppointment aa : myDoctor.getAvailableAppointments()) {
         //     System.out.println(aa.getDate() + " " + aa.getTime()); // Se imprimen las citas
