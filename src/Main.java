@@ -1,6 +1,7 @@
-import java.util.Date;
+import model.Doctor;
+import model.Patient;
 
-import static ui.UIMenu.*;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class Main {
         myDoctor.addAvailableAppointment(new Date(), "1 PM");
 
         System.out.println(myDoctor);
-        // User: Cristian Iñiguez
+        // model.User: Cristian Iñiguez
         // Email: Odontology
         // Address: null
         // Phone: null
@@ -29,13 +30,13 @@ public class Main {
         // Date: Sun Mar 28 14:24:47 AMT 2021
         // Time: 1 PM]
 
-        // for (Doctor.AvailableAppointment aa : myDoctor.getAvailableAppointments()) {
+        // for (model.Doctor.AvailableAppointment aa : myDoctor.getAvailableAppointments()) {
         //     System.out.println(aa.getDate() + " " + aa.getTime()); // Se imprimen las citas
         // }
 
         Patient patient = new Patient("Alejandra", "alejandra@gmail.com");
         //System.out.println(patient);
-        // User: Alejandra
+        // model.User: Alejandra
         // Email: alejandra@gmail.com
         // Address: null
         // Phone: null

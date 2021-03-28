@@ -1,3 +1,5 @@
+package model;
+
 public class User {
     private int id;
     private String name;
@@ -56,7 +58,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User: " + name +
+        return "model.User: " + name +
                 "\nEmail: " + email +
                 "\nAddress: " + address +
                 "\nPhone: " + phoneNumber;
