@@ -22,6 +22,8 @@ public class UIDoctorMenu {
 
             switch (response) {
                 case 1:
+                    response = 0;
+                    showAddAvailableAppointmentMenu();
                     break;
                 case 2:
                     break;

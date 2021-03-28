@@ -98,7 +98,7 @@ public class UIMenu {
                         emailCorrect = true;
                         // Obtener datos del usuario logueado
                         doctorLogged = d;
-                        // Show Doctor Menu
+                        UIDoctorMenu.showDoctorMenu();
                     }
                 }
             }
