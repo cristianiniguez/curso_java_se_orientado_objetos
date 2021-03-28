@@ -56,6 +56,9 @@ public class User {
 
     @Override
     public String toString() {
-        return "User: " + name + "\nEmail: " + email + "\nAddress: " + address + "\nPhone: " + phoneNumber;
+        return "User: " + name +
+                "\nEmail: " + email +
+                "\nAddress: " + address +
+                "\nPhone: " + phoneNumber;
     }
 }
