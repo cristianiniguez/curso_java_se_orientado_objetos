@@ -28,7 +28,7 @@ public class UIPatientMenu {
                     break;
                 case 2:
                     response = 0;
-
+                    showPatientMyAppointment();
                     break;
                 case 0:
                     UIMenu.showMenu();

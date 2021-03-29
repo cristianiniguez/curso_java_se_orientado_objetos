@@ -109,7 +109,7 @@ public class UIMenu {
                         emailCorrect = true;
                         // Obtener datos del usuario logueado
                         patientLogged = p;
-                        // Show Patient Menu
+                        UIPatientMenu.showPatientMenu();
                     }
                 }
             }
