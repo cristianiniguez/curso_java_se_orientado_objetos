@@ -7,7 +7,7 @@ import java.util.Date;
 
 public class Doctor extends User {
     private String speciality;
-    ArrayList<AvailableAppointment> availableAppointments = new ArrayList<>();
+    private ArrayList<AvailableAppointment> availableAppointments = new ArrayList<>();
 
     public Doctor(String name, String email) {
         super(name, email);
